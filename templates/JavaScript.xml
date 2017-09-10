@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="log" value="console.log(&quot;MARKER: $MARKER$&quot;, $MARKER$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="MARKER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

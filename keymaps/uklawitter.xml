@@ -1,0 +1,18 @@
+<keymap version="1" name="uklawitter" parent="Mac OS X 10.5+">
+  <action id="Console.TableResult.Reload" />
+  <action id="Diff.SelectedChange" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="hg4idea.QRefresh" />
+  <action id="org.jetbrains.plugins.ruby.rails.console.ReloadSources" />
+</keymap>

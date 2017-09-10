@@ -1,0 +1,21 @@
+<templateSet group="Ionic">
+  <template name="item-stacked-label-text" value="&lt;label class=&quot;item item-input item-stacked-label&quot;&gt;&#10;  &lt;span class=&quot;input-label&quot;&gt;$LABEL$&lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; placeholder=&quot;$PLACEHOLDER$&quot;&gt;&#10;&lt;/label&gt;" description="Ionic Form Stacked Label" toReformat="true" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="item-input-text" value="&lt;label class=&quot;item item-input&quot;&gt;&#10;    &lt;span class=&quot;input-label&quot;&gt;$NAME$&lt;/span&gt;&#10;    &lt;input type=&quot;text&quot;&gt;&#10;&lt;/label&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="item-toggle" value="&lt;li class=&quot;item item-toggle&quot;&gt;&#10; $NAME$&#10; &lt;label class=&quot;toggle toggle-assertive&quot;&gt;&#10;   &lt;input type=&quot;checkbox&quot;&gt;&#10;   &lt;div class=&quot;track&quot;&gt;&#10;     &lt;div class=&quot;handle&quot;&gt;&lt;/div&gt;&#10;   &lt;/div&gt;&#10; &lt;/label&gt;&#10;&lt;/li&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
