@@ -3,7 +3,7 @@
     <property name="created">2017-09-11T21:55:24</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.3.0.0</property>
-    <property name="modified">2017-09-12T15:04:51</property>
+    <property name="modified">2017-09-12T16:46:29</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -53,21 +53,21 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ffff80" />
+        <option name="FOREGROUND" value="ffff80" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ffff80" />
+        <option name="FOREGROUND" value="ffff80" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ff8080" />
+        <option name="FOREGROUND" value="ff8080" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -78,8 +78,8 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ff8080" />
+        <option name="FOREGROUND" value="ff8080" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -104,8 +104,8 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ffff80" />
+        <option name="FOREGROUND" value="ffff80" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -121,8 +121,8 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ff8080" />
+        <option name="FOREGROUND" value="ff8080" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -147,8 +147,8 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ff8080" />
+        <option name="FOREGROUND" value="ff8080" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -160,8 +160,8 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ffff80" />
+        <option name="FOREGROUND" value="ffff80" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -172,8 +172,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="313335" />
-        <option name="BACKGROUND" value="ff8080" />
+        <option name="FOREGROUND" value="ff8080" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
