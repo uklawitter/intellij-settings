@@ -1,4 +1,13 @@
 <keymap version="1" name="uklawitter" parent="Mac OS X 10.5+">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="ctrl o_with_diaeresis" />
+  </action>
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="shift ctrl o_with_diaeresis" />
+  </action>
+  <action id="AceTargetAction">
+    <keyboard-shortcut first-keystroke="ctrl alt o_with_diaeresis" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
