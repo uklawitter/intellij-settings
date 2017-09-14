@@ -1,6 +1,7 @@
 <keymap version="1" name="uklawitter" parent="Mac OS X 10.5+">
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl o_with_diaeresis" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="AceLineAction">
     <keyboard-shortcut first-keystroke="shift ctrl o_with_diaeresis" />
