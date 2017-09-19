@@ -45,6 +45,9 @@
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
@@ -71,6 +74,16 @@
   </action>
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta add" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="shift meta u_with_diaeresis" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta o_with_diaeresis" />
