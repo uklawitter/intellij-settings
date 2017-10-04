@@ -3,7 +3,7 @@
     <property name="created">2017-10-02T10:44:17</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.5.0.0</property>
-    <property name="modified">2017-10-04T11:47:53</property>
+    <property name="modified">2017-10-04T13:35:59</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <attributes>
@@ -43,6 +43,16 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="5fa400" />
+      </value>
+    </option>
+    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="5fa400" />
+      </value>
+    </option>
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="f6006c" />
@@ -53,6 +63,11 @@
       <value>
         <option name="EFFECT_COLOR" value="f6006c" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="5fa400" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
