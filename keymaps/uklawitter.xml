@@ -19,7 +19,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta eszett" />
   </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt subtract" />
@@ -49,7 +49,7 @@
     <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="meta equals" />
+    <keyboard-shortcut first-keystroke="meta #10000b4" />
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt equals" />
