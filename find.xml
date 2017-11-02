@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../app/components/map/mapbox-map/mapbox-map.directive.js - [vilago_app_new]'" />
-    <option name="defaultScopeName" value="File '.../app/components/map/mapbox-map/mapbox-map.directive.js - [vilago_app_new]'" />
-    <option name="SEARCH_SCOPE" value="File '.../app/components/map/mapbox-map/mapbox-map.directive.js - [vilago_app_new]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
