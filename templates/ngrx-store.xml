@@ -9,7 +9,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="evt" value="@Effect() $EVENT_NAME$$ = this.actions$.ofType($EVENT_TYPE$).pipe(&#10;        $END$&#10;    );" description="Event" toReformat="true" toShortenFQNames="true">
+  <template name="eff" value="@Effect() $EVENT_NAME$$ = this.actions$.ofType($EVENT_TYPE$).pipe(&#10;        $END$&#10;    );" description="Effect" toReformat="true" toShortenFQNames="true">
     <variable name="EVENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="EVENT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
