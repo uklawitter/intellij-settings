@@ -1,0 +1,19 @@
+<templateSet group="ngrx-store">
+  <template name="act" value="export const $NAME$ = PREFIX + &quot;$DESCRIPTION$&quot;;&#10;export const $NAME$_SUCCESS = PREFIX + &quot;$DESCRIPTION$ Success&quot;;&#10;export const $NAME$_FAIL = PREFIX + &quot;$DESCRIPTION$ Fail&quot;;&#10;&#10;export class $ACTIONNAME$Action implements Action {&#10;    readonly type = $NAME$;&#10;    constructor(public payload:$PAYLOAD$) {}&#10;}&#10;&#10;export class $ACTIONNAME$SuccessAction implements Action {&#10;    readonly type = $NAME$_SUCCESS;&#10;    constructor(public payload:$PAYLOAD_SUCCESS$) {}&#10;}&#10;&#10;export class $ACTIONNAME$FailAction implements Action {&#10;    readonly type =$NAME$_FAIL;&#10;    constructor(public payload:any){}&#10;}" description="Action Type" toReformat="true" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="capitalizeAndUnderscore(DESCRIPTION)" defaultValue="" alwaysStopAt="false" />
+    <variable name="ACTIONNAME" expression="capitalize(underscoresToCamelCase(NAME))" defaultValue="" alwaysStopAt="false" />
+    <variable name="PAYLOAD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PAYLOAD_SUCCESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="evt" value="@Effect() $EVENT_NAME$$ = this.actions$.ofType($EVENT_TYPE$).pipe(&#10;        $END$&#10;    );" description="Event" toReformat="true" toShortenFQNames="true">
+    <variable name="EVENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EVENT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
