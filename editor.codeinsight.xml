@@ -4,6 +4,8 @@
     <option name="COLLAPSE_FILE_HEADER" value="false" />
   </component>
   <component name="CodeInsightSettings">
+    <option name="AUTO_POPUP_PARAMETER_INFO" value="false" />
+    <option name="AUTO_POPUP_COMPLETION_LOOKUP" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
   <component name="JavaCodeFoldingSettings">
