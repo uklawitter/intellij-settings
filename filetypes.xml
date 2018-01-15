@@ -9,6 +9,7 @@
       <mapping pattern="Dockerfile-socket" type="PLAIN_TEXT" />
       <mapping ext="773848192" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
+      <mapping ext="rdb" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
