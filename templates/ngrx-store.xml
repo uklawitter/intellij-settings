@@ -1,9 +1,8 @@
 <templateSet group="ngrx-store">
-  <template name="act" value="export const $NAME$ = &quot;[$PREFIX$] $DESCRIPTION$&quot;;&#10;&#10;export class $ACTIONNAME$Action implements Action {&#10;    readonly type = $NAME$;&#10;    constructor() {}&#10;}&#10;" description="Action Type" toReformat="true" toShortenFQNames="true">
+  <template name="act_type" value="$NAME$ = &quot;[$PREFIX$] $DESCRIPTION$&quot;" description="Action Type" toReformat="true" toShortenFQNames="true">
     <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="capitalizeAndUnderscore(DESCRIPTION)" defaultValue="" alwaysStopAt="false" />
-    <variable name="ACTIONNAME" expression="capitalize(underscoresToCamelCase(NAME))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -11,6 +10,15 @@
   <template name="eff" value="@Effect() $EVENT_NAME$$ = this.actions$.ofType($EVENT_TYPE$).pipe(&#10;        $END$&#10;    );" description="Effect" toReformat="true" toShortenFQNames="true">
     <variable name="EVENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="EVENT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="act_class" value="export class $NAME$Action implements Action {&#10;    readonly type = $TYPES$.$TYPE$;&#10;    &#10;    constructor(public payload: {$CURSOR$}){&#10;    }&#10;}" description="Action Class" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
