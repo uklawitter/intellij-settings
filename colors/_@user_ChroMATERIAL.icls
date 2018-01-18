@@ -3,7 +3,7 @@
     <property name="created">2018-01-12T07:58:38</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.2.0.0</property>
-    <property name="modified">2018-01-16T16:30:53</property>
+    <property name="modified">2018-01-18T08:53:04</property>
     <property name="originalScheme">ChroMATERIAL</property>
   </metaInfo>
   <colors>
@@ -14,6 +14,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="263238" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="546e7a" />
+    <option name="DIFF_SEPARATORS_BOTTOM_BORDER" value="3c3f41" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="" />
     <option name="DOCUMENTATION_COLOR" value="263238" />
     <option name="ERROR_HINT" value="862d34" />
@@ -744,25 +745,25 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="2e0f10" />
+        <option name="BACKGROUND" value="f0f23" />
         <option name="ERROR_STRIPE_COLOR" value="f0475c" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="101518" />
+        <option name="BACKGROUND" value="f0f23" />
         <option name="ERROR_STRIPE_COLOR" value="90a4ae" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="173115" />
+        <option name="BACKGROUND" value="f0f23" />
         <option name="ERROR_STRIPE_COLOR" value="78ff58" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="2d2a04" />
+        <option name="BACKGROUND" value="f0f23" />
         <option name="ERROR_STRIPE_COLOR" value="e4e544" />
       </value>
     </option>
