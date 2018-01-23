@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="Code" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Code" />
-    <option name="FILE_MASK" value="*.scss" />
+    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -30,8 +30,8 @@
       <mask>*.scs</mask>
       <mask>*.rb</mask>
       <mask>*.ts</mask>
-      <mask>*.html</mask>
       <mask>*.scss</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
