@@ -1546,6 +1546,18 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/mailgun-ruby-1.1.6/lib" />
       </SOURCES>
     </library>
+    <library name="mapbox-gl" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.tiles.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.tiles.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="method_source (v0.8.2, RVM: ruby-2.3.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/method_source-0.8.2/lib" />
