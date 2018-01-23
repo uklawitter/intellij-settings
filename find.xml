@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Code" />
     <option name="defaultScopeName" value="Code" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Code" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -28,6 +31,7 @@
       <mask>*.scs</mask>
       <mask>*.scss</mask>
       <mask>*.rb</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
