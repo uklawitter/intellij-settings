@@ -1,0 +1,17 @@
+<keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="ctrl #10000f6" />
+  </action>
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="shift ctrl #10000f6" />
+  </action>
+  <action id="AceTargetAction">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000f6" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta #10000f6" />
+  </action>
+  <action id="ShowRecentTests">
+    <keyboard-shortcut first-keystroke="shift meta #10000f6" />
+  </action>
+</keymap>
