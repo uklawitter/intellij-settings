@@ -23,8 +23,6 @@
     <keyboard-shortcut first-keystroke="shift meta #10000df" />
   </action>
   <action id="CollapseExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta subtract" />
     <keyboard-shortcut first-keystroke="meta #10000df" />
   </action>
   <action id="CollapseRegion">
@@ -71,23 +69,18 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="ExpandAll">
-    <keyboard-shortcut first-keystroke="meta add" />
     <keyboard-shortcut first-keystroke="meta #10000b4" />
   </action>
   <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta add" />
     <keyboard-shortcut first-keystroke="shift meta #10000b4" />
   </action>
   <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta add" />
     <keyboard-shortcut first-keystroke="meta #10000b4" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta #10000b4" />
   </action>
   <action id="ExpandRegionRecursively">
-    <keyboard-shortcut first-keystroke="meta alt add" />
     <keyboard-shortcut first-keystroke="meta alt #10000b4" />
   </action>
   <action id="Forward">
