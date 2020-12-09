@@ -8,6 +8,9 @@
   <action id="AceTargetAction">
     <keyboard-shortcut first-keystroke="ctrl alt #10000f6" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -154,6 +157,7 @@
   <action id="ShowRecentTests">
     <keyboard-shortcut first-keystroke="shift meta #10000f6" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="ZoomCurrentWindow">
     <keyboard-shortcut first-keystroke="ctrl meta #10000b4" />
   </action>
