@@ -8,6 +8,7 @@
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-socket" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-node" type="PLAIN_TEXT" />
       <mapping ext="docker" type="PLAIN_TEXT" />
       <mapping ext="rdb" type="PLAIN_TEXT" />
