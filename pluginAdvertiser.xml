@@ -546,6 +546,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.fxg">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myPluginName" value="Flash/Flex" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.fxml">
           <value>
             <plugin>
@@ -1213,6 +1221,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.mxml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myPluginName" value="Flash/Flex" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.ng">
           <value>
             <plugin>
@@ -1704,6 +1720,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.swf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myPluginName" value="Flash/Flex" />
             </plugin>
           </value>
         </entry>
@@ -2780,6 +2804,16 @@
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
+                  <entry key="FlashRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Flash App" pluginName="Flash/Flex" pluginId="com.intellij.flex" />
+                    </value>
+                  </entry>
+                  <entry key="FlexUnitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="FlexUnit" pluginName="Flash/Flex" pluginId="com.intellij.flex" />
+                    </value>
+                  </entry>
                   <entry key="GlassfishConfiguration">
                     <value>
                       <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" />
@@ -2943,6 +2977,11 @@
                   <entry key="Remote">
                     <value>
                       <FeaturePluginData displayName="Remote JVM Debug" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="RemoteFlashRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Flash Remote Debug" pluginName="Flash/Flex" pluginId="com.intellij.flex" />
                     </value>
                   </entry>
                   <entry key="RubyRemoteDebugConfigurationType">
