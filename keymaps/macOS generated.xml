@@ -151,6 +151,10 @@
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="ctrl less" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="SaveAll" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta #10000f6" />
   </action>
