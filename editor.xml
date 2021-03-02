@@ -13,6 +13,12 @@
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="TypeScript.ts.chain.hints" />
+        <option value="TypeScript.ts.type.hints" />
+      </set>
+    </option>
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="JavaCodeFoldingSettings">
