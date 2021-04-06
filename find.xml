@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.spec.ts</mask>
     <mask>README.md</mask>
     <mask>package.json</mask>
@@ -10,5 +11,6 @@
     <mask>*.json</mask>
     <mask>*.md</mask>
     <mask>*.java</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
