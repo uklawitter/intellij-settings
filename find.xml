@@ -9,7 +9,7 @@
     <mask>*.scss</mask>
     <mask>*.json</mask>
     <mask>*.md</mask>
-    <mask>*.java</mask>
     <mask>*.ts</mask>
+    <mask>*.java</mask>
   </component>
 </application>
