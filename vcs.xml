@@ -10,6 +10,10 @@
           <option name="url" value="git@ssh.git.tech.rz.db.de:PZ-RIS/rimaps/vista/vista-view.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@ssh.git.tech.rz.db.de:PZ-RIS/rimaps/vista/vista-lib.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects/vista" />
