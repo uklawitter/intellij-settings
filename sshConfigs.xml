@@ -1,0 +1,8 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="rimaps-bastionhost.pzgen-test.comp.db.de" id="a040c38d-4506-421a-8832-21e2d123b3e4" localPort="5432" port="22" nameFormat="DESCRIPTIVE" username="uweklawitter" />
+      <sshConfig authType="PASSWORD" host="rimaps-tst-vistards.ch7pdja7kozn.eu-central-1.rds.amazonaws.com" id="459b5f12-8731-43d7-9053-c70e42a37751" port="5432" nameFormat="DESCRIPTIVE" username="uweklawitter" />
+    </configs>
+  </component>
+</application>
